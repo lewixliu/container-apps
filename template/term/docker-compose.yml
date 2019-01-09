@@ -1,0 +1,13 @@
+app:
+  image: lewix/terminal:edge
+  stdin_open: true
+  tty: true
+  privileged: true
+  pid: "host"
+  net: "host"
+  volumes:
+    - /share:/share:rshared
+    - /var/run/docker.sock:/var/run/docker.sock
+    - /etc:/nas/etc:ro
+    - /var:/nas/var:ro
+    - /usr:/nas/usr:ro

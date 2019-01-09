@@ -11,6 +11,16 @@
         "type": "docker"
     },
     {
+        "delcription": "Terminal",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "displayName": "Terminal",
+        "name": "term",
+        "version": "edge",
+        "location": "https://hub.docker.com/r/lewix/terminal/",
+        "type": "app"
+    },
+    {
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
