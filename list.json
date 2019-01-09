@@ -1,5 +1,16 @@
 [
     {
+        "description": "OpenWRT build env in Ubuntu 14.04.",
+        "repository": "dockerhub",
+        "arch": "amd64",
+        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/1.10/images/ubuntu_icon.png",
+        "displayName": "OpenWRT",
+        "name": "lewix/openwrt-build",
+        "version": "latest",
+        "location": "https://hub.docker.com/r/lewix/openwrt-build",
+        "type": "docker"
+    },
+    {
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
